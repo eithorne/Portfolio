@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elliott Sparrman</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/26f2bbf500.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="slideUp()">
+    <div id="main">
+      <div id="header">
+        <a class="header-title" href="">Elliott Sparrman</a>
+        <div id="update">
+          <button onclick="topToggle()">
+            <img class="update-icon" src="https://file.toyhou.se/images/12693769_aDgCQjC1CFXxkHd.png">
+          </button>
+          <div class="update-content">
+            <div class="update-arrow"></div>
+            <div class="update-header">
+              <i class="fas fa-gem"></i>
+            </div>
+            <div class="update-text">
+              Sidan uppdaterades senast <i>2019-09-13.</i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="content">
+
+        <h1>Portfolio</h1>
+        <div class="grid-container">
+          <div class="item hex1">
+            <div class="hexagon">
+              <div class="hexagon-hover">
+                <span class="hexagon-hover-title">Imitten.se</span>
+                <hr>
+                <div class="hexagon-hover-tags">
+                  <span>Tag 1</span>
+                  <span>Tag 2</span>
+                </div>
+              </div>
+              <a href="#" data-toggle="modal" data-target="#hex1"></a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="hexagon">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="hexagon">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="hexagon">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="hexagon">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <span></span>
+      </div>
+    </div>
+
+    <div id="side">
+      <div class="side-content">
+        <div class="side-inner">
+          <div class="card">
+            <p class="mb-0">
+              <img class="side-avatar" src="https://file.toyhou.se/images/12990295_FG6gdT64tZq5etL.png">
+              Hej! Jag heter Elliott Sparrman och är en webbutvecklare med fokus på frontend. Jag går just nu TE4 på NTI i Umeå.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button id="side-toggle" onclick="sideToggle()">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="modal fade" id="hex1" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content p-2">
+          <div class="modal-inner">
+            <div class="container-fluid py-3">
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <img src="Images/imitten.png">
+                    Våren 2019 arbetade jag med ett grupprojekt åt Dragonskolan. Elever i TE3INF fick i uppdrag att skapa en wordpress-sida som skulle användas som skolans mediahubb. Jag skrev stora delar av sidans CSS, och redigerade även PHP-filer för att ge sidan en bättre layout som fungerade för ändamålet. Du kan besöka sidan på <a href="https://www.imitten.se/">imitten.se</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
