@@ -418,21 +418,19 @@ body {
 
 @media (max-width: 1200px) {
   
-  #main {
-    margin: 0 60px;
+   #main {
+    margin: 0 40px;
   }
 
   #content {
-    padding: 30px 80px 60px;
+    padding: 30px 40px 60px;
   }
 
 }
 
 @media (max-width: 992px) {
   
-  #main {
-    margin: 0 40px;
-  }
+ 
 
 }
 
