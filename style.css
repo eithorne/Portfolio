@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0 120px;
+  margin: 0 60px;
   background-color: var(--bg-color);
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
@@ -124,7 +124,7 @@ body {
 #content {
   flex-grow: 1;
   width: 100%;
-  padding: 40px 20%;
+  padding: 30px 40px 60px;
 }
 
 #content h1 {
@@ -414,24 +414,6 @@ body {
 @keyframes slideUp {
   from {opacity: 0; top: 100px;}
   to {opacity: 1; top: 0;}
-}
-
-@media (max-width: 1200px) {
-  
-   #main {
-    margin: 0 40px;
-  }
-
-  #content {
-    padding: 30px 40px 60px;
-  }
-
-}
-
-@media (max-width: 992px) {
-  
- 
-
 }
 
 @media (max-width: 768px) {
